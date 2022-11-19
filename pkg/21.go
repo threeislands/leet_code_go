@@ -1,4 +1,4 @@
-package src
+package pkg
 
 /**
  * Definition for singly-linked list.

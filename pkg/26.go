@@ -1,7 +1,9 @@
-package src
+package pkg
 
 func removeDuplicates(nums []int) int {
-	if len(nums) == 1 { return 1 }
+	if len(nums) == 1 {
+		return 1
+	}
 
 	count := 1
 	for _, n := range nums[1:] {
