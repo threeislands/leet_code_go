@@ -24,8 +24,3 @@ func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
 	}
 	return root.Next
 }
-
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
